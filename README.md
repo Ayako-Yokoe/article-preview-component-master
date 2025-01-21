@@ -4,14 +4,14 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ## Table of contents
 
--   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
-    -   [Continued development](#continued-development)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
 
 ## Overview
 
@@ -19,8 +19,8 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 Users should be able to:
 
--   View the optimal layout for the component depending on their device's screen size
--   See the social media share links when they click the share icon
+- View the optimal layout for the component depending on their device's screen size
+- See the social media share links when they click the share icon
 
 ### Screenshot
 
@@ -29,17 +29,17 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Ayako-Yokoe/article-preview-component-master)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
 
--   Semantic HTML5 markup
--   CSS custom properties
--   Flexbox
--   Mobile-first workflow
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
 ### What I learned
 
@@ -47,22 +47,22 @@ I learned how to toggle the visibility of the tooltip or social media icons by c
 
 ```html
 <div id="mobile-active-footer">
-    <p class="share">Share</p>
-    <div class="social-media">
-        <img ... alt="Facebook" />
-        <img ... alt="Twitter" />
-        <img ... alt="Pinterest" />
-    </div>
+  <p class="share">Share</p>
+  <div class="social-media">
+    <img ... alt="Facebook" />
+    <img ... alt="Twitter" />
+    <img ... alt="Pinterest" />
+  </div>
 </div>
 ```
 
 ```css
 #mobile-active-footer {
-    display: none;
+  display: none;
 }
 #mobile-active-footer.visible {
-    display: flex;
-    ...;
+  display: flex;
+  ...;
 }
 ```
 
@@ -86,4 +86,3 @@ shareButton.addEventListener("click", () => {
 ### Continued development
 
 I plan to keep exploring more features of JavaScript and continue improving my coding skills.
-# article-preview-component-master
